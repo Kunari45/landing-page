@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subcontainer1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.subcontainer3 {
+    background-color: #E5E7EB;
+}
