@@ -1,8 +1,12 @@
-.container {
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    border: 1px solid black;
 }
 
 .subcontainer1 {
@@ -13,6 +17,7 @@
 
 .subcontainer2 {
     height: 25vh;
+    background-color: white;
 }
 
 .subcontainer3 {
@@ -22,4 +27,5 @@
 
 .subcontainer4 {
     height : 15vh;
+    background-color: white;
 }
