@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 html, body {
     padding: 0;
     margin: 0;
@@ -11,7 +13,6 @@ html, body {
 
 .subcontainer1 {
     background-color: #1F2937;
-    color: #F9FAF8;
     height: 35vh;
 }
 
@@ -28,4 +29,76 @@ html, body {
 .subcontainer4 {
     height : 15vh;
     background-color: white;
+}
+
+
+nav ul{
+    display: flex;
+    margin: 0 -10px;
+    list-style-type: none;
+    padding: 20px 550px 80px 550px;
+}
+
+nav li{
+    margin: 0 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.push-left {
+    margin-right: auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.herotextsection {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 550px 0px 550px;
+}
+
+.herotextsection.flipped {
+    flex-direction: row-reverse;
+}
+
+.herotextsection .content {
+    flex: 1;
+    padding: 10px;
+}
+
+.heromaintext {
+    font-size: 48px;
+    font-weight: bold; 
+    color: #F9FAF8;
+    margin-top: 0px;
+}
+
+.herosubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signupbutton {
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    border-color: #3882F6;
+    padding: 5px 20px 5px 20px;
+}
+
+.image {
+    background-color: grey;
+    width: 600px;
+    height: 250px;
 }
