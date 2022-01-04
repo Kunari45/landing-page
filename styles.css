@@ -13,28 +13,33 @@ html, body {
 
 .subcontainer1 {
     background-color: #1F2937;
-    height: 35vh;
+    height: auto;
+    padding-bottom: 100px;
 }
 
 .subcontainer2 {
-    height: 25vh;
+    height: auto;
     background-color: white;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 .subcontainer3 {
     background-color: #E5E7EB;
-    height: 25vh;
+    height: auto;
 }
 
 .subcontainer4 {
-    height : 15vh;
+    height : auto;
     background-color: white;
 }
 
 
 nav ul{
     display: flex;
-    margin: 0 -10px;
     list-style-type: none;
     padding: 20px 550px 80px 550px;
 }
@@ -64,7 +69,6 @@ a:visited {
 
 .herotextsection {
     display: flex;
-    align-items: flex-start;
     padding: 0px 550px 0px 550px;
 }
 
@@ -100,5 +104,31 @@ a:visited {
 .image {
     background-color: grey;
     width: 600px;
-    height: 250px;
+}
+
+.subcontainer2wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.subcontainer2layout {
+    display: flex;
+}
+
+.images {
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 100px;
+    width: 100%;
+}
+
+.imagetxt {
+    list-style-type: none;
+    font-size: 18px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: grey;
+    font-weight: bolder;
 }
