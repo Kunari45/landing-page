@@ -18,13 +18,17 @@ html, body {
 }
 
 .subcontainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     background-color: white;
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
-    text-align: center;
-    padding-bottom: 100px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .subcontainer3 {
@@ -37,8 +41,11 @@ html, body {
 }
 
 .subcontainer4 {
+    display: flex;
+    justify-content: center;
     height : auto;
     background-color: white;
+    padding: 100px 100px 100px 100px;
 }
 
 
@@ -113,7 +120,6 @@ a:visited {
 .subcontainer2wrapper {
     display: flex;
     justify-content: center;
-
 }
 
 .subcontainer2layout {
@@ -155,4 +161,25 @@ a:visited {
     text-align: right;
     color: #1F2937;
     font-weight: bolder;
+}
+
+.signupcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    height: 100px;
+    width: 50%;
+    border-radius: 3px;
+    padding: 30px 100px 30px 100px;
+}
+
+.signuptext {
+    width: 60%;
+}
+
+.signupbutton {
+    border: 1px solid white;
+    height: 30px;
+    width: 120px;
 }
