@@ -129,18 +129,20 @@ a:visited {
 .images {
     border: 2px solid blue;
     border-radius: 5px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 .imagetxt {
-    list-style-type: none;
     font-size: 12px;
-    width: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
     color: grey;
     font-weight: bolder;
+}
+
+.image-wrapper {
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .quote-section {
