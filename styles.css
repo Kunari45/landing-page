@@ -12,11 +12,13 @@ html, body {
     height: 100vh;
 }
 
+
 .navbar {
     background-color: #242582;
     width: 100%;
     font-weight: bolder;
     font-size: 20px;
+    padding-bottom: 50px;
 }
 
 nav ul{
@@ -49,6 +51,7 @@ a:visited {
     color: #F9FAF8;
 }
 
+
 .subcontainer1 {
     display: flex;
     justify-content: center;
@@ -58,8 +61,9 @@ a:visited {
 
 .herosection {
     display: flex;
-    padding: 0px 550px 0px 550px;
-    width: 1000px
+    justify-content: center;
+    width: 1350px;
+    height: auto;
 }
 
 .herosection.flipped {
@@ -68,14 +72,12 @@ a:visited {
 
 .herosection .content {
     flex: 1;
-    padding: 10px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .image {
-    background-color: grey;
     flex: 1;
-    margin-left: 40px;
+    width: 800px;
 }
 
 .heromaintext {
@@ -87,15 +89,19 @@ a:visited {
 
 .herosubtext {
     font-size: 18px;
+    font-weight: bold;
     color: #E5E7EB;
+    padding-bottom: 40px;
 }
 
-.signupbutton {
+.button {
     background-color: #F64C72;
     border-radius: 4px;
     color: #F9FAF8;
     border-color: #F64C72;
     padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -194,7 +200,7 @@ a:visited {
 }
 
 .signupbutton {
-    border: 1px solid white;
+    border: 1px solid #F64C72;
     height: 30px;
     width: 120px;
 }
