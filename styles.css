@@ -157,8 +157,8 @@ a:hover {
 .images {
     border: 2px solid blue;
     border-radius: 5px;
-    height: 150px;
-    width: 150px;
+    height: auto;
+    width: 300px;
 }
 
 .imagetxt {
@@ -169,7 +169,7 @@ a:hover {
 }
 
 .image-wrapper {
-    width: 150px;
+    width: auto;
     margin-left: 20px;
     margin-right: 20px;
 }
